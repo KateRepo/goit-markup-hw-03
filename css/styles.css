@@ -399,17 +399,13 @@ ol {
 }
 
 .card-set > .item {
+  max-width: 370px;
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
 }
 
-/* .card {
-  text-align: left;
-} */
-
 .card-content {
-  max-width: 370px;
   padding: 20px 24px;
   border-right: 1px solid var(--card-border);
   border-left: 1px solid var(--card-border);
