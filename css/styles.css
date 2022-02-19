@@ -188,9 +188,12 @@ ol {
   text-decoration: none;
 }
 
-.auth-mail,
+.auth-mail:hover,
+.auth-mail:focus {
+  color: var(--accent-color);
+}
+
 .auth-tel:hover,
-.auth-mail,
 .auth-tel:focus {
   color: var(--accent-color);
 }
@@ -313,8 +316,8 @@ ol {
 }
 
 .team-content {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -355,8 +358,7 @@ ol {
   flex-direction: row-reverse;
   text-align: center;
   justify-content: center;
-  margin-bottom: 34px;
-  padding-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -380,14 +382,6 @@ ol {
 }
 
 /* Портфолио */
-
-.portfolio-container {
-  width: 1200px;
-  padding-left: 0 px;
-  padding-right: 0 px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .card-set {
   margin: 0;
@@ -440,8 +434,6 @@ ol {
 
 .footer-list {
   margin-top: 20px;
-  display: block;
-  width: 231px;
 }
 
 .footer-location {
