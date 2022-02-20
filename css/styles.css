@@ -309,6 +309,7 @@ ol {
   margin-right: 30px;
   background-color: var(--primary-background-color);
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .team-item:last-child {
